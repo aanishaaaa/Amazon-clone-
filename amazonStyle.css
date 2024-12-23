@@ -1,0 +1,559 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+body{
+    background-color: rgb(211, 203, 203);
+}
+
+#navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #0b1420;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white
+}
+
+.p1{
+    font-size: 0.85rem;
+    color: grey;
+    margin-left: 15px;
+}
+
+.p2{
+    display: flex;
+}
+
+.In{
+    margin-left: 3px;
+}
+
+.nav_search{
+    display: flex;
+    background-color: white;
+    width: 500px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+
+.search_icon{
+    border-end-end-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: rgb(231, 173, 93);
+    height: 30px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.search_icon:hover{
+    background-color: rgb(214, 147, 54);
+}
+
+.option{
+    height: 30px;
+    border: none;
+    background-color: rgb(233, 225, 225);
+}
+
+.search_input{
+    border: none;
+    width: 100%;
+    margin-left: 3px;
+}
+
+span{
+    font-size: 0.85rem;
+}
+
+.nav_second{
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.cart{
+    transform: scale(1.8);
+}
+
+.nav_bar2{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: #232f3e;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    
+}
+
+.list1{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.list2 p {
+    display: inline;
+    margin-left: 20px;
+}
+
+.list2{
+    width: 80%;
+}
+
+.bg{
+    height: 500px;
+    width: 100%;
+    background-image: url(amazon-bg.jpg);
+    background-size: cover;
+}
+
+.grid1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 400px;
+}
+
+.grid2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 900px;
+    margin-bottom: 50px;
+}
+
+.box1{
+    width: 280px;
+    height: 350px;
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.row1{
+    width: 280px;
+    height: 140px;
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+}
+
+.row2{
+    width: 280px;
+    height: 180px;
+    background-color: white;
+    position: relative;
+    bottom: 70px;
+    background-image: url(ship.jpg);
+    background-size: cover;
+}
+
+.col1{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.col11{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    transform: translateY(20px);
+}
+
+.sign_box{
+    margin-top: 35px;
+    width: 240px;
+    height: 30px;
+    margin-left: 20px;
+    background-color: rgb(254, 211, 18);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.box_img{
+    height: 100px;
+}
+
+.toy{
+    height: 250px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.shop_now{
+    margin: 20px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: rgb(16, 179, 179);
+}
+
+.shop_now:hover{
+    color: rgb(235, 121, 20);
+}
+
+.box2{
+    width: 280px;
+    height: 350px;
+    background-color: white;
+    position: relative;
+    bottom: 130px;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.beauty{
+    height: 250px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.col1_row1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.jeans_img{
+    width: 110px;
+    height: 100px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.written{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.top_img{
+    width: 110px;
+    height: 100px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.deals{
+    margin: 20px;
+    margin-top: 25px;
+    font-size: 13px;
+    color: rgb(16, 179, 179);
+}
+
+.deals:hover{
+    color: rgb(235, 121, 20);
+    text-decoration: underline;
+}
+
+.bar{
+    height: 40px;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 340px;
+}
+
+.link{
+    color: rgb(16, 179, 179);
+}
+
+.link:hover{
+    color: rgb(235, 121, 20);
+    text-decoration: underline;
+}
+
+.bar_bg{
+    display: flex;
+    justify-content: center;   
+}
+
+.box3{
+    width: 280px;
+    height: 350px;
+    background-color: white;
+    position: relative;
+    bottom: 140px;
+    color: black;
+    font-size: 20px;
+}
+
+.grid3{
+    width: 97%;
+    height: 270px;
+    background-color: white;
+    position: relative;
+    bottom: 160px;
+    margin-left: 20px;
+   
+}
+
+.row1_3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.images{
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.grid4{
+    width: 97%;
+    height: 270px;
+    background-color: white;
+    position: relative;
+    bottom: 170px;
+    margin-left: 20px;
+}
+
+.grid5{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    bottom: 140px;
+}
+
+.signIn{
+   
+    position: relative;
+    top: 80px;
+    font-size: 13px;
+}
+
+.sign_in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 30px;
+    background-color: rgb(240, 182, 74);
+    border: 1px solid rgb(255, 136, 0);
+    border-radius: 2px;
+    margin: 3px;
+}
+
+.sign_bar{
+    display: flex;
+    justify-content: center;
+}
+
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: hwb(213 21% 64%);
+    position: relative;
+    bottom: 140px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.top:hover{
+    background-color: hwb(213 29% 57%);
+}
+
+.middle{
+    width: 100%;
+    height: 490px;
+    background-color: #232f3e;
+    position : relative;
+    bottom: 140px;
+    color: white;
+   
+}
+
+.mid1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+}
+
+.row1col{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rowscol {
+    color: rgb(205, 205, 205);
+    margin-bottom: 8px;
+}
+
+.rowscol:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(205, 205, 205);
+}
+
+.mid2{
+    position: relative;
+    top: 100px;
+}
+
+.mid2_col1{
+    margin-right: 50px;
+}
+
+select{
+    background-color: #232f3e;
+    color: white;
+    height: 40px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row22{
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 100px;
+}
+
+.row23{
+    display: flex;
+    justify-content: center;
+}
+
+.B{
+    font-size: 13px;
+    margin-top: 3px;
+    margin-right: 20px;
+}
+
+.B:hover{
+    text-decoration: underline;
+}
+
+.A{
+   font-size: 13px; 
+}
+
+.A:hover{
+    text-decoration: underline;
+}
+
+.end{
+    width: 100%;
+    position: relative;
+    bottom: 150px;
+    background-color: #0b1420;
+    height: 250px;
+    color: white;
+}
+
+.endRow1{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+    margin-bottom: 20px;
+}
+
+.row4col1{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.row4col2{
+    font-size: 13px;
+    color: rgb(142, 142, 142);
+}
+
+.end2{
+    margin-right: 200px;
+}
+
+.COL2{
+    margin-top: 20px;
+}
+
+.link2:hover{
+    text-decoration: underline;
+}
+
+.endRow2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    font-size: 13px
+}
+
+.div1{
+    margin: 10px;
+}
+
+.endRow3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    font-size: 13px;
+}
+
+.profile{
+    position: relative;
+    bottom: 20px;
+}
+
+.Th{
+    position: relative;
+    bottom: 40px;
+}
